@@ -67,7 +67,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'kien/ctrlp.vim'
   NeoBundle 'flazz/vim-colorschemes'
   NeoBundle 'scrooloose/nerdtree'
-  NeoBundle 'i-tu/vim-haskligConceal'
+  "NeoBundle 'i-tu/vim-haskligConceal'
   NeoBundle 'scrooloose/syntastic'
   NeoBundle 'scrooloose/nerdcommenter'
   "NeoBundle 'valloric/youcompleteme'
@@ -131,6 +131,7 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 "set term=xterm-256color-italic
 set termencoding=utf-8
+""set macligatures
 
 set guioptions-=r 
 set guioptions-=l
@@ -144,8 +145,8 @@ NeoBundleCheck
 " ------------------------------------------------------------------
 "let g:solarized_visibility="low"    "default value is normal
 syntax enable
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 " ------------------------------------------------------------------
 
 " The following items are available options, but do not need to be
